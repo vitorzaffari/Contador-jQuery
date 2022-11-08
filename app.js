@@ -22,14 +22,12 @@ function incrementar() {
 function decrementar() {
     var contador = parseInt(valor.text());
     valor.text(contador - 1);
-    console.log(valor.text());
     adcClasse()
 }
 
 //zerar-------------------------------------------------------------------------
 function zerar() {
     valor.text(0);
-    console.log(valor.text());
     adcClasse()
 }
 
